@@ -29,6 +29,7 @@ namespace Linter_Tester
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtFilePath = new System.Windows.Forms.TextBox();
             this.btnOpen = new System.Windows.Forms.Button();
             this.btnGo = new System.Windows.Forms.Button();
@@ -70,6 +71,7 @@ namespace Linter_Tester
             this.Controls.Add(this.btnGo);
             this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.txtFilePath);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PHP tester";
